@@ -10,7 +10,7 @@ $elemento1 = $data['record']['record']['elemento1'];
 $elemento2 = $data['record']['record']['elemento2'];
 $producto_esperado = $data['record']['record']['producto'];
 
-$producto_calculado = $elemento1 * $elemento2;
+$producto_calculado = $elemento1 * $elemento1;
 
 if ($producto_calculado == $producto_esperado) {
     echo "El producto es correcto: $elemento1 * $elemento2 = $producto_esperado";
