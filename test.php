@@ -19,3 +19,4 @@ if ($producto_calculado == $producto_esperado) {
     echo "Error: El producto es incorrecto: Se esperaba $producto_esperado pero se calculó $producto_calculado";
     exit(1);
 }
+
